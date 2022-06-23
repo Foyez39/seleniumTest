@@ -92,7 +92,7 @@
                 <version>2.12.4</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>..\TeamPython_HybridFrameWork\src\test\resources\automation-runner.xml</suiteXmlFile>
+                        <suiteXmlFile>..\TeamPython_Hybrid_BACKUP\src\test\resources\automation-runner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

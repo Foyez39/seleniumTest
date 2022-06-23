@@ -8,21 +8,21 @@
     <parameter name="browserName" value="chrome"></parameter>
     <parameter name="browserVersion" value="102"></parameter>
     <parameter name="url" value="http://automationpractice.com/"></parameter>
-<!--    <test name="LoginTest">-->
-<!--        <classes>-->
-<!--            <class name="Application.automation.LoginTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="LoginTest">
+        <classes>
+            <class name="Application.automation.LoginTest"></class>
+        </classes>
+    </test>
 <!--        <test name="CartTest">-->
 <!--            <classes>-->
 <!--                <class name="Application.automation.AddToCartTest"></class>-->
 <!--            </classes>-->
 <!--        </test>-->
-        <test name="ColorChangeTest">
-            <classes>
-                <class name="Application.automation.ColorTest"></class>
-            </classes>
-        </test>
+<!--        <test name="ColorChangeTest">-->
+<!--            <classes>-->
+<!--                <class name="Application.automation.ColorTest"></class>-->
+<!--            </classes>-->
+<!--        </test>-->
 <!--        <test name="DropdownTest">-->
 <!--            <classes>-->
 <!--                <class name="Application.automation.DropdownSizeTest"></class>-->
