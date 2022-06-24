@@ -232,7 +232,7 @@ public class CommonAPI {
         actions.dragAndDrop(draggable, droppable).build().perform();
     }
 
-    public void clickWithActions(WebDriver driver, WebElement element){
+    public void clickWithActions(WebDriver driver, String element){
         Actions actions = new Actions(driver);
         actions.click(element).build().perform();
     }
