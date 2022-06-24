@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Telerik Smoke Test">
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="osVersion" value="11"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="browserVersion" value="102"></parameter>
+    <parameter name="url" value="https://www.telerik.com/"></parameter>
+
+    <test name="Login Test">
+        <classes>
+            <class name="Application.Telerik.LoginTest"></class>
+        </classes>
+    </test>
+
+    <!--    <test name="Edit Profile Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.EditProfileTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="UI For JQuery Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.UIForJQueryTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="UI For Angular Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.UIForAngularTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="UI React Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.UIForReactTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="UI Vue Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.UIForVueTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Data Management Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxDataManagementTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Scheduling Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxSchedulingTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Layout Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxLayoutTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Interactivity and UX Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxInteractivityUXTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Theming Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxThemingTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Editors Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxEditorsTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Data Visualization Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxDataVisualizationTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="File Upload and Management Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxFileUploadManagementTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Spell Checking Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxSpellCheckingTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    -->
+    <!--    <test name="Navigation Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxNavigationTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Performance Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxPerformanceTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Ajax Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.Ajax_ajaxTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Social Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.AjaxSocialTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    -->
+    <!--    <test name="Search and Checkout Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.SearchAndCheckoutTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <!--    <test name="Login Page Excel Reader Test">-->
+    <!--        <classes>-->
+    <!--            <class name="Application.Telerik.LoginExcelReaderTest"></class>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+</suite>
