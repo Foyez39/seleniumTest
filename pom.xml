@@ -89,10 +89,10 @@
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.12.4</version>
+                <version>3.0.0-M7</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>..\TeamPython_HybridFrameWork\src\test\resources\automation-runner.xml</suiteXmlFile>
+                        <suiteXmlFile>c:\Users\PNT\TeamPython_Hybrid_BACKUP\src\test\resources\automation-runner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
